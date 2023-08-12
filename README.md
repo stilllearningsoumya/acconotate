@@ -51,7 +51,7 @@ The ground-truth files are not used as input to the Acconotate framework and are
 
 ## Citations
 
-If Acconotate and its setting are helpful in your research, please consider citing our paper:
+If Acconotate, its findings or settings are helpful in your research, please consider citing our paper:
 
 ```
 @inproceedings{acconotate,
