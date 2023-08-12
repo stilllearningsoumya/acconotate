@@ -2,7 +2,7 @@
 
 This is public code repository for the paper **Acconotate: Exploiting Acoustic Changes for Automatic Annotation of Inertial Data at the Source**, accepted in **IEEE DCOSS-IoT 2023**. The presentation slides and teaser for the project are available: [here](https://docs.google.com/presentation/d/1UUBJHT5jJccThNckkkOYgTZKo4d11a3WikLp2Y09kzk/edit?usp=sharing) and [here](https://youtu.be/XAEgkozGecA).
 
-![dualuser](assets/premise.png)
+<img src="assets/premise.png" width="100">
 
 ## Abstract
 
@@ -28,13 +28,13 @@ To run and test Acconotate you would need MATLAB(R2017a) and `python` (3.9 or hi
 
 - **Stage 2**
 
-1. Clone the [Ubicoustics](https://github.com/FIGLAB/ubicoustics) and replace the two files from the `audio_model` folder in the cloned repository. Run `python3 run_predictions_audio` to generate predictions on the individual audio splits present in the `cpsd_splits` folder.
+1. Clone [Ubicoustics](https://github.com/FIGLAB/ubicoustics) repository and replace the two files from the `audio_model` folder in the cloned repository. Run `python3 run_predictions_audio` to generate predictions on the individual audio splits present in the `cpsd_splits` folder.
 
 2. Run `python3 check_exclusive_changes.py` to recognise the acoustic gaps and identify the actvities of the users. This will generate a file `activity2user.csv` in the dataset folder where the activities mapped to the users will be logged. 
 
 - **Stage 3**
 
-Run `python3 annotate_users.py` to use the activity information to finally annotate their individual IMU streams.
++ Run `python3 annotate_users.py` to use the activity information to finally annotate their individual IMU streams.
 
 ### Sample Dataset and Results
 
