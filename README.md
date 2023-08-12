@@ -39,11 +39,15 @@ To run and test Acconotate you would need MATLAB(R2017a) and `python` (3.9 or hi
 
 - **Stage 3**
 
-+ Run `python3 annotate_users.py` to use the activity information to finally annotate their individual IMU streams.
+1. Run `python3 annotate_users.py` to use the activity information to finally annotate their individual IMU streams.
 
 ### Sample Dataset and Results
 
-The purpose of this example is to explain the working principle of Acconotate and not exact reproduction of results. Exact details of the dataset used, values of the random seed, virtual location of microphones, optimization settings, etc. may differ from the paper.
+The dataset directory `sample_dataset` contains the sample data for a workshop environment with two users hammering and cutting a wooden plank with a saw. For exact process of generating the dataset please refer to our poster paper accepted in ACM/IEEE IPSN 2022 [here](https://github.com/stilllearningsoumya/data_augmentation_strategy).
+
+The dataset folder consists of the raw accelerometer data, in the files named `u*_ewatch.csv` from the smartwatch of the two users and the global audio file `global_audio.wav`. It also contains a log file containing the start and end timings of recording along with the individual ground-truth files (`u*_grnd_truth.csv`) for evaluation. 
+
+The ground-truth files are not used as input to the Acconotate framework and are kept just for the purpose of assessment. The purpose of this example is to explain the working principle of Acconotate and not exact reproduction of results. Exact details of the dataset used, values of the random seed, virtual location of microphones, optimization settings, etc. may differ from the paper.
 
 ## Citations
 
