@@ -1,2 +1,6 @@
-# acconotate
-This is public code repository for the paper Acconotate: Exploiting Acoustic Changes for Automatic Annotation of Inertial Data at the Source, accepted in IEEE DCOSS-IoT 2023
+# Acconotate
+This is public code repository for the paper Acconotate: Exploiting Acoustic Changes for Automatic Annotation of Inertial Data at the Source, accepted in IEEE DCOSS-IoT 2023.
+
+## Abstract
+
+Smart infrastructures often intend to provide personalized context-aware services for their residents. These context-aware services, in turn, often rely on sophisticated machine learning algorithms which need vast volumes of costly annotated sensor data. State-of-the-art automated annotation frameworks try to solve this problem by generating annotated sensor data obtained from personal wearables. However, most of these approaches -- (a) either need visual data from the environment or (b) can only work for environments with a single resident. This paper discusses the design of a first-of-its-kind framework Acconotate which can automatically generate annotated data from dual resident smart environments without requiring any visual information. Acconotate achieves this by exploiting the typical transitions present in complex human activities first to solve the critical problem of the user-to-activity association and then use that to annotate the sensor stream available from both the users. Rigorous evaluation with two real-life datasets collected in two diverse scenarios shows that Acconotate can successfully generate annotated sensor data over the edge without human intervention.
