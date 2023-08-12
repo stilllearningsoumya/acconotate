@@ -5,15 +5,19 @@ This is public code repository for the paper **Acconotate: Exploiting Acoustic C
 
 Smart infrastructures often intend to provide personalized context-aware services for their residents. These context-aware services, in turn, often rely on sophisticated machine learning algorithms which need vast volumes of costly annotated sensor data. State-of-the-art automated annotation frameworks try to solve this problem by generating annotated sensor data obtained from personal wearables. However, most of these approaches -- (a) either need visual data from the environment or (b) can only work for environments with a single resident. This paper discusses the design of a first-of-its-kind framework Acconotate which can automatically generate annotated data from dual resident smart environments without requiring any visual information. Acconotate achieves this by exploiting the typical transitions present in complex human activities first to solve the critical problem of the user-to-activity association and then use that to annotate the sensor stream available from both the users. Rigorous evaluation with two real-life datasets collected in two diverse scenarios shows that Acconotate can successfully generate annotated sensor data over the edge without human intervention.
 
-## Software Requirements and Dependencies
+## Running Acconotate
+
+The expected input to the Acconotate framework is unlabelled raw triaxial accelerometer data from the smartwatch of the two users. The smartwatch needs to be worn on the preferred hand of the user with which they are performing the activities. Acconotate also needs the raw unlabelled audio data from the environment. Once this data is provided to Acconotate, it then (1) performs unsupervised change point detections independently over all these input data. Next, (2) it observes the acoustic gaps and finally (3) uses them to annotate the individual accelerometer data obtained from both the users. 
+
+### File Descriptions
+
+### Software Requirements and Dependencies
 
 To run and test Acconotate you would need MATLAB(R2017a) and `python` (3.9 or higher). The file `requirements.txt` provides the list of python dependencies required by this project. Additionally, Acconotate also utilizes a pre-trained audio-based activity recognition module for generating the annotations. This version of Acconotate currently uses the architecture and software pipeline defined in [Ubicoustics](https://github.com/FIGLAB/ubicoustics). Please refer to the original codebase of [Ubicoustics](https://github.com/FIGLAB/ubicoustics) for its license and software requirements.
 
-## Running Acconotate
+### Sample Dataset and Results
 
-## Sample Dataset and Results
-
-The purpose of this example is to explain the working principle of Acconotate, not exact reproduction of results. Exact details of the dataset used, virtual location of microphones, optimization settings, etc. may differ from the paper.
+The purpose of this example is to explain the working principle of Acconotate, not exact reproduction of results. Exact details of the dataset used, values of the random seed, virtual location of microphones, optimization settings, etc. may differ from the paper.
 
 ## Citations
 
