@@ -2,7 +2,9 @@
 
 This is public code repository for the paper **Acconotate: Exploiting Acoustic Changes for Automatic Annotation of Inertial Data at the Source**, accepted in **IEEE DCOSS-IoT 2023**. The presentation slides and teaser for the project are available: [here](https://docs.google.com/presentation/d/1UUBJHT5jJccThNckkkOYgTZKo4d11a3WikLp2Y09kzk/edit?usp=sharing) and [here](https://youtu.be/XAEgkozGecA).
 
-<img src="assets/premise.png" width="300" align="center">
+<p align="center">
+	<img src="assets/premise.png" width="600" align="center">
+</p>
 
 ## Abstract
 
@@ -12,7 +14,10 @@ Smart infrastructures often intend to provide personalized context-aware service
 
 The expected input to the Acconotate framework is unlabelled raw triaxial accelerometer data from the smartwatch of the two users. The smartwatch needs to be worn on the preferred hand of the user with which they are performing the activities. Acconotate also needs the raw unlabelled audio data from the environment. Once this data is provided to Acconotate, it then (1) performs unsupervised change point detections independently over all these input data. Next, (2) it observes the acoustic gaps and finally (3) uses them to annotate the individual accelerometer data obtained from both the users. 
 
-![acconotate](assets/multi_annotator.png)
+<p align="center">
+	<img src="assets/multi_annotator.png" width="600" align="center">
+</p>
+
 
 ### Software Requirements and Dependencies
 
