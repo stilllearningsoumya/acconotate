@@ -9,6 +9,8 @@ Smart infrastructures often intend to provide personalized context-aware service
 
 The expected input to the Acconotate framework is unlabelled raw triaxial accelerometer data from the smartwatch of the two users. The smartwatch needs to be worn on the preferred hand of the user with which they are performing the activities. Acconotate also needs the raw unlabelled audio data from the environment. Once this data is provided to Acconotate, it then (1) performs unsupervised change point detections independently over all these input data. Next, (2) it observes the acoustic gaps and finally (3) uses them to annotate the individual accelerometer data obtained from both the users. 
 
+![acconotate](assets/multi_annotator.png)
+
 ### File Descriptions
 
 ### Software Requirements and Dependencies
@@ -17,7 +19,7 @@ To run and test Acconotate you would need MATLAB(R2017a) and `python` (3.9 or hi
 
 ### Sample Dataset and Results
 
-The purpose of this example is to explain the working principle of Acconotate, not exact reproduction of results. Exact details of the dataset used, values of the random seed, virtual location of microphones, optimization settings, etc. may differ from the paper.
+The purpose of this example is to explain the working principle of Acconotate and not exact reproduction of results. Exact details of the dataset used, values of the random seed, virtual location of microphones, optimization settings, etc. may differ from the paper.
 
 ## Citations
 
