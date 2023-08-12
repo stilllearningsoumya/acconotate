@@ -163,3 +163,5 @@ cpsd_splits/*.wav
 *audio_activity_log.*
 *split_info*.csv
 *change_scores*.csv
+*_acc.csv
+*_vol.csv
