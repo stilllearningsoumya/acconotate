@@ -1,8 +1,8 @@
 # Acconotate
 
-![dualuser](assets/premise.png)
-
 This is public code repository for the paper **Acconotate: Exploiting Acoustic Changes for Automatic Annotation of Inertial Data at the Source**, accepted in **IEEE DCOSS-IoT 2023**. The presentation slides and teaser for the project are available: [here](https://docs.google.com/presentation/d/1UUBJHT5jJccThNckkkOYgTZKo4d11a3WikLp2Y09kzk/edit?usp=sharing) and [here](https://youtu.be/XAEgkozGecA).
+
+![dualuser](assets/premise.png)
 
 ## Abstract
 
