@@ -58,7 +58,7 @@ If Acconotate, its findings or settings are helpful in your research, please con
   author={Chatterjee, Soumyajit and Singh, Arun and Mitra, Bivas and Chakraborty, Sandip},
   booktitle={2023 19th International Conference on Distributed Computing in Smart Systems and the Internet of Things (DCOSS-IoT)}, 
   title={Acconotate: Exploiting Acoustic Changes for Automatic Annotation of Inertial Data}, 
-  year={2023},,
+  year={2023},
   pages={25-33},
   doi={10.1109/DCOSS-IoT58021.2023.00013}}
 ```
