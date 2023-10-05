@@ -1,6 +1,6 @@
 # Acconotate
 
-This is public code repository for the paper **Acconotate: Exploiting Acoustic Changes for Automatic Annotation of Inertial Data at the Source**, accepted in **IEEE DCOSS-IoT 2023**. The presentation slides and teaser for the project are available: [here](https://docs.google.com/presentation/d/1UUBJHT5jJccThNckkkOYgTZKo4d11a3WikLp2Y09kzk/edit?usp=sharing) and [here](https://youtu.be/XAEgkozGecA).
+This is public code repository for the paper [**Acconotate: Exploiting Acoustic Changes for Automatic Annotation of Inertial Data at the Source**](https://ieeexplore.ieee.org/document/10257192), accepted in **IEEE DCOSS-IoT 2023**. The presentation slides and teaser for the project are available: [here](https://docs.google.com/presentation/d/1UUBJHT5jJccThNckkkOYgTZKo4d11a3WikLp2Y09kzk/edit?usp=sharing) and [here](https://youtu.be/XAEgkozGecA).
 
 <p align="center">
 	<img src="assets/premise.png" width="600" align="center">
@@ -57,7 +57,7 @@ If Acconotate, its findings or settings are helpful in your research, please con
 @inproceedings{acconotate,
   author={Chatterjee, Soumyajit and Singh, Arun and Mitra, Bivas and Chakraborty, Sandip},
   booktitle={2023 19th International Conference on Distributed Computing in Smart Systems and the Internet of Things (DCOSS-IoT)}, 
-  title={Acconotate: Exploiting Acoustic Changes for Automatic Annotation of Inertial Data}, 
+  title={Acconotate: Exploiting Acoustic Changes for Automatic Annotation of Inertial Data at the Source}, 
   year={2023},
   pages={25-33},
   doi={10.1109/DCOSS-IoT58021.2023.00013}}
